@@ -71,3 +71,9 @@ nav{
     border-radius: 0.5rem;
     font-weight: 700;
 }
+
+#services{
+    display: block;
+    padding-left: 15%;
+    margin-top: 5%;
+}
