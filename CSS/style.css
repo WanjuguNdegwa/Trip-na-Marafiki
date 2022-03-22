@@ -136,3 +136,20 @@ nav{
     background-clip: text;
     text-fill-color: transparent;
 }
+
+#section3 .row .col{
+    color: #004E98;
+    font-style: normal;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 115%;
+    font-weight: 400;   
+}
+
+hr{
+    display: block;
+    width: 5%;
+    height: 0.63rem !important;
+    background-color: #004E98;
+    margin-left: 40%; 
+    border: none;
+}
