@@ -115,8 +115,24 @@ nav{
     border-radius: 0.5rem;
     font-weight: 700;
 }
+
 #svg{
     display: block;
     margin-left: 3%;
     padding-left: 3%;
+}
+
+#section3{
+    background: #EBEBEB;
+}
+
+#section3 h1{
+    font-family: 'Permanent Marker', cursive;
+    color: #004E98;
+    line-height: 3.2rem;
+    background: linear-gradient(92.07deg, #FF6700 45.27%, #004E98 54.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
