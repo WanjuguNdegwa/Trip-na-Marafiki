@@ -72,6 +72,10 @@ nav{
     font-weight: 700;
 }
 
+#section2{
+    background: #EBEBEB;
+}
+
 #services{
     display: block;
     padding-left: 15%;
@@ -84,12 +88,12 @@ nav{
     color: #004E98;
     line-height: 3.2rem;
     display: block;
-    margin-left: 3%;
+    margin-left: 1%;
 }
 
 #services p{
     display: block;
-    margin-left: 3%;
+    margin-left: 1%;
     margin-top: 3%;
     color: #004E98;
     font-size: 1.1rem;
@@ -99,7 +103,7 @@ nav{
 
 #services button{
     display: block;
-    margin-left: 4%;
+    margin-left: 1%;
     margin-top: 4%;
     width: 30%;
     color: #EBEBEB;
@@ -110,4 +114,9 @@ nav{
     font-size: 1.5rem;
     border-radius: 0.5rem;
     font-weight: 700;
+}
+#svg{
+    display: block;
+    margin-left: 3%;
+    padding-left: 3%;
 }
