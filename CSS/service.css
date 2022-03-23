@@ -1,0 +1,96 @@
+.container{
+    background-image: url(./Images/rectangle_35.png);
+}
+#book{
+    display: flex;
+}
+#book .from{
+    padding-right: 50px;
+    padding-left: 100px;
+}
+#book .to{
+    padding-left: 100px;
+}
+#book .no{
+    padding-left: 100px;
+}
+#book .depature{
+    padding-left: 50px;
+}
+#input{
+    margin-left: 35px;
+    height: 30px;
+}
+input.text{
+    width: 172px;
+    height: 28px;
+}
+input.from, input.to{
+    text-align: center;
+}
+input.search{
+    padding: 0px;
+}
+input.depature{
+    width: 172px;
+}
+#input-data{
+    border: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 850px;
+    margin-left: 100px;
+    background-color: #004E98;
+}
+h5{
+    text-align: center;
+}
+#nav{
+    display: flex;
+}
+button.nav-login{
+    margin-top: 10px;
+    margin-left: 310px;
+    margin-right: 50px;
+    height: 30px;
+    width: 80px;
+    background-color: #FF6700;
+}
+button.nav-sign{
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    background-color: #FF6700;
+}
+.para{
+    padding: 10px;
+    text-align: center;
+    font-family: Permanent Marker;
+    font-size: 40px;
+}
+.fa-user-group{
+    color: #3A6EA5;
+    font-size: 50px;
+    padding-right: 200px;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.fa-car-on{
+    color: #3A6EA5;
+    font-size: 50px;
+    padding-right: 200px;
+
+}
+.fa-wifi{
+    color: #3A6EA5;
+    font-size: 50px;
+}
+.description{
+    display: flex;
+}
+p#text-icon{
+    font-size: 12px; 
+    font-style: Cabin;
+    color: #FF6700;
+    text-align: center;
+}
