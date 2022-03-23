@@ -10,7 +10,17 @@ $(document).ready(function(){
 
         var regex2 = /^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]{2,10})(\.[a-zA-Z]{2,7})?$/
         if (email === ""){
-            $("#emailval")
+            $("#emailval").show();
+            return false
+        }else{
+            if(!regex2.test(email)){
+                $("#emailval2").show();
+                return false;
+            }
+        }
+        var regex3 = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#\._%()!])[a-zA-z0-9@#\._%()!]+$/
+        if(password === ""){
+            //$
         }
     });
   })
