@@ -27,3 +27,11 @@ body {
 h1 {
     word-spacing: 20px;
 }
+form {
+    width: 30%;
+}
+
+h2 {
+    font-size:larger;
+    font-weight: 100 ;
+}
