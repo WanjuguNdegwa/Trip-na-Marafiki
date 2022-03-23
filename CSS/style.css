@@ -267,3 +267,43 @@ hr{
     background: #004E98;
     padding: 3%;
 }
+
+#partners{
+    display: block;
+}
+
+#partners h3{
+    font-family: 'Permanent Marker', cursive;
+    color: #EBEBEB;
+    font-size: 2rem;
+}
+
+#partners img{
+    width: 60%;
+}
+
+#section5 .row .lists{
+    display: block;
+}
+
+#section5 .row .lists h4{
+    margin-left: 10%;
+    color: #EBEBEB;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+}
+
+#section5 .row .lists ul li{
+    list-style: none;
+    color: #EBEBEB;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.3rem;
+}
+
+#section5 .row .lists ul li:hover{
+    color: #FF6700;
+    cursor: pointer;
+}
