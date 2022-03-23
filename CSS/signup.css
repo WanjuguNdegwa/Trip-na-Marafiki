@@ -41,3 +41,8 @@ h2 {
     display: none;
     color: red;
 };
+@media screen and (max-width: 480px) {
+    form {
+        width: 80%;
+    }
+  }
