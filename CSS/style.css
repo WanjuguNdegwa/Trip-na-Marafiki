@@ -222,6 +222,14 @@ hr{
     font-size: 1.1rem;
 }
 
+#section4 form input[type = "text"]:focus{
+    outline: none;
+}
+
+#section4 textarea:focus{
+    outline: none;
+}
+
 #section4 form button{
     display: block;
     width: 20%;
