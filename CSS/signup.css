@@ -15,8 +15,11 @@ body {
     color: #EBEBEB;
 }
 
-#login-button {
+#signup-button {
     background-color: #3A6EA5;
     color: #C0C0C0;
     border: none;
+}
+.text-black {
+    color: black;
 }
