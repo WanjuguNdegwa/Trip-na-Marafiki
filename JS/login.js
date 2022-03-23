@@ -6,7 +6,7 @@ $(document).ready(function(){
         const storedPassword = window.localStorage.getItem(email);
 
         if (password === storedPassword) {
-            window.location.replace("index.html");
+            window.location.replace("services.html");
             // window.localStorage.setItem(email, password);
 
             // logout
