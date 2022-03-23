@@ -12,6 +12,17 @@ nav{
     background: #004E98 !important;
 }
 
+#navmenu{
+    display: block;
+    margin-left: 25% !important;
+    margin-right: 10% !important;
+}
+
+#registermenu{
+    display: block;
+    margin-left: 15% !important;
+}
+
 #icon{
     display: block;
     font-size: 337.5%;
@@ -72,6 +83,11 @@ nav{
     font-weight: 700;
 }
 
+#hitch button a{
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
 #section2{
     background: #EBEBEB;
 }
@@ -106,7 +122,6 @@ nav{
     margin-left: 1%;
     margin-top: 4%;
     width: 30%;
-    color: #EBEBEB;
     padding: 2%;
     background-color: #FF6700;
     filter: drop-shadow(0rem .25rem .25rem rgba(0, 0, 0, 0.25));
@@ -114,6 +129,11 @@ nav{
     font-size: 1.5rem;
     border-radius: 0.5rem;
     font-weight: 700;
+}
+
+#services button a{
+    color: #EBEBEB;
+    text-decoration: none;
 }
 
 #svg{
@@ -192,7 +212,7 @@ hr{
 #section4 form input[type = "text"]{
     border: none;
     border-bottom: 0.2rem solid #004E98;
-    width: 49%;
+    width: 50%;
     padding: 1%;
     background-color: #EBEBEB;
     color: #004E98;
