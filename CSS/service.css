@@ -53,27 +53,32 @@ button.nav-sign{
 }
 .fa-user-group{
     color: #3A6EA5;
-    font-size: 50px;
-    padding-right: 200px;
+    font-size: 80px;
+    padding-right: 100px;
     margin-top: 20px;
     margin-left: 180px;
 }
 .fa-car-on{
     color: #3A6EA5;
-    font-size: 50px;
-    padding-right: 200px;
+    font-size: 80px;
+    padding-right: 100px;
 
 }
 .fa-wifi{
     color: #3A6EA5;
-    font-size: 50px;
+    font-size: 80px;
+    padding-right: 100px;
+
 }
 .description{
     display: flex;
 }
-p#text-icon{
+p#text-icon1,p#text-icon2,p#text-icon3,p#text-icon4{
     font-size: 12px; 
     font-style: Cabin;
     color: #FF6700;
     text-align: center;
 }  
+/* #trips{
+    display: none;
+} */
