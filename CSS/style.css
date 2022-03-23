@@ -165,7 +165,7 @@ hr{
     line-height: 3.2rem;
     display: block;
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 16%;
 }
 
 #section4 .text-center{
@@ -208,6 +208,7 @@ hr{
     margin-bottom: 2%;
     color: #004E98;
     font-size: 1.1rem;
+    padding: 1%;
 }
 
 #section4 form input[type = "text"]::placeholder{
