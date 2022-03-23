@@ -20,7 +20,17 @@ $(document).ready(function(){
         }
         var regex3 = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#\._%()!])[a-zA-z0-9@#\._%()!]+$/
         if(password === ""){
-            //$
+            //$("#passval").show();
+            alert('password is required')
+            return false
+        }
+        if(!regex3.test(password)){
+            //$("#passval2").show();
+            alert('weak password')
+            return false
+        }
+        if(confirmpassword === ""){
+            //$("#conpassval").show
         }
     });
   })
