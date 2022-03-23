@@ -37,10 +37,7 @@ h2 {
     font-size:larger;
     font-weight: 100 ;
 }
-#emailval2, #emailval, #passval, #passval2, #passval3, #conpassval, #conpassval2 {
-    display: none;
-    color: red;
-};
+
 @media screen and (max-width: 480px) {
     form {
         width: 80%;
