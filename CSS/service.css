@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent Marker&display=swap');
 #images{
     background: url(../Images/rectangle_35.png) no-repeat center center / cover;
 }
+.service{
+    font-family: Acme;
+    padding-top: 10px; 
+    margin-left: 40px;
+    color: white;
+}
+
 #input-data{
     display: flex;
 }
-input.text{
-    width: 172px;
+input.number{
+    width: 100px;
     height: 28px;
 }
 input.from, input.to{
@@ -19,7 +28,7 @@ input.depature{
 }
 #input-data{
     border: 1px solid black;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 40px;
     width: 850px;
     margin-left: 100px;
@@ -46,7 +55,7 @@ button.nav-sign{
     background-color: #FF6700;
 }
 .para{
-    padding: 10px;
+    padding: 50px;
     text-align: center;
     font-family: Permanent Marker;
     font-size: 40px;
@@ -54,24 +63,26 @@ button.nav-sign{
 .fa-user-group{
     color: #3A6EA5;
     font-size: 80px;
-    padding-right: 100px;
-    margin-top: 20px;
-    margin-left: 180px;
+    /* padding-right: 100px; */
+    /* margin-left: 140px;  */
 }
 .fa-car-on{
     color: #3A6EA5;
     font-size: 80px;
-    padding-right: 100px;
+    /* padding-right: 100px; */
+    /* margin-right: 140px;  */
 
 }
 .fa-wifi{
     color: #3A6EA5;
     font-size: 80px;
-    padding-right: 100px;
+    /* padding-right: 100px; */
 
 }
-.description{
-    display: flex;
+.fa-code-branch{
+    color: #3A6EA5;
+    font-size: 80px;
+    /* padding-right: 100px; */
 }
 p#text-icon1,p#text-icon2,p#text-icon3,p#text-icon4{
     font-size: 12px; 
@@ -79,6 +90,33 @@ p#text-icon1,p#text-icon2,p#text-icon3,p#text-icon4{
     color: #FF6700;
     text-align: center;
 }  
-/* #trips{
+.text2{
     display: none;
-} */
+    text-align: center;
+}
+.comfy2{
+    display: none;
+    text-align: center;
+    
+}
+.book2{
+    display: none;
+    text-align: center;
+}
+.wifi2{
+    display: none;
+    text-align: center;
+}
+#icons{
+    display: flex;
+    margin-left: 150px;
+}
+.text{
+    margin-right: 100px;
+}
+.book{
+    margin-right: 100px; 
+}
+.comfy{
+    margin-right: 100px; 
+}
