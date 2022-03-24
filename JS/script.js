@@ -52,17 +52,17 @@ class FormValidate {
 let contactForm = new FormValidate(document.querySelector("#name"), document.querySelector("#email"), document.querySelector("#message"), document.querySelector("#form"));
 
 contactForm.form.addEventListener('submit', function(e) {
-    let nameOkay;
-    let emailOkay;
-    let messageOkay;
-    let submitOkay;
+    let verifyName;
+    let verifyEmail;
+    let verifyMessage;
+    let confirmSubmition;
 
-    nameOkay = contactForm.validateName(contactForm.nameEntered);
-    emailOkay = contactForm.validateEmail(contactForm.emailEntered);
-    messageOkay = contactForm.validateMessage(contactForm.messageEntered);
-    submitOkay = nameOkay && emailOkay && messageOkay;
+    verifyName = contactForm.validateName(contactForm.nameEntered);
+    verifyEmail = contactForm.validateEmail(contactForm.emailEntered);
+    verifyMessage = contactForm.validateMessage(contactForm.messageEntered);
+    confirmSubmition = verifyName && verifyEmail && verifyMessage;
 
-    if (!submitOkay) {
+    if (!confirmSubmition) {
         e.preventDefault();
     }
 });
