@@ -8,48 +8,61 @@ $(document).ready(function () {
     });
 });
 
-// OO form validation
+class FormValidate {
+    constructor(nameEntered, messageEntered,  emailEntered, form) {
+        this.nameEntered = nameEntered;     
+        this.messageEntered = messageEntered;   
+        this.emailEntered = emailEntered;   
+        this.form = form;
+    }
+    validateName(nameEntered) {
+        const regName = new RegExp("^[a-zA-Z\\s]*$");
+        let validName = false;
+        let userName = nameEntered.value.trim();
+        let validUserNameLength = userName.length < 3 || userName.length > 20 ? false : true;
 
-// ;(function (window, undefined) {
-//     const Verifier ={
-//         constructor: function (form, config) {
-//             this._dataForm = form;
-//             this._data = config.fields || {};
+        if( !(userName === '') && validUserNameLength && (regName.test(userName)) ){
+            validName = true;
+        }
+        return alert("Enter valid name");
+    }
+    validateEmail(emailEntered) {
+        let isEmailValid = false;
+        let userEmail = emailEntered.value.toLowerCase();
+        const regEmail = new RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
 
-//             this.init();
-//         },
-//         init: function () {
-//             this.addFormListener();
-//         },
-//     addFormListener: function () {
-//             let formSelector = this._dataForm, dataForm = document.querySelector(formSelector);
-//             dataForm.addEventListener("submit", this.validate.bind(this), false);
-//         },
-//         validate: function (e) {
-//             let dataFields = this._data;
-//             for(var field in dataFields){
-//                 givenData = document.querySelector(field), givenDataVal = givenData.value;
-//                 if (dataFields[field].require || givenDataVal === "" || givenDataVal.length > dataFields[field].maxlength) {
-//                     givenData.classList.add("invalid");
-//                 }
-//             }
-//             e.preventDefault();
-//         }
-//     }
+        if( !(userEmail === '') && (regEmail.test(userEmail)) ) {
+            isEmailValid = true;
+        }
+        return alert("Enter correct email");
+    }
+    validateMessage(messageEntered) {
+        let isMessageValid = false;
+        let userMessage = messageEntered.value;
+        let validUserMessageLength = userMessage.length < 1 || userMessage.length > 50 ? false : true; 
+        const regMessage = new RegExp("^[a-zA-Z\\s]*$");
 
-//     let inputForm = Object.create(Verifier);
-//     inputForm.constructor("#form", {
-//         fields: {
-//             "#name": {
-//                 required: true,
-//                 maxlength: 20
-//             },
-//             "#message": {
-//                 maxlength: 50
-//             }
-//         }
-//     })
+        if( !(userMessage === '') && validUserMessageLength && (regMessage.test(userMessage)) ) {
+            isMessageValid = true;
+        }
+        return alert("Enter a message");
+    }
+}
 
-// })(window, undefined);
+let contactForm = new FormValidate(document.querySelector("#name"), document.querySelector("#email"), document.querySelector("#message"), document.querySelector("#form"));
 
-    
+contactForm.form.addEventListener('submit', function(e) {
+    let nameOkay;
+    let emailOkay;
+    let messageOkay;
+    let submitOkay;
+
+    nameOkay = contactForm.validateName(contactForm.nameEntered);
+    emailOkay = contactForm.validateEmail(contactForm.emailEntered);
+    messageOkay = contactForm.validateMessage(contactForm.messageEntered);
+    submitOkay = nameOkay && emailOkay && messageOkay;
+
+    if (!submitOkay) {
+        e.preventDefault();
+    }
+});
