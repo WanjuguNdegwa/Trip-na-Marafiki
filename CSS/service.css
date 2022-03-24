@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent Marker&display=swap');
+#images{
+    background: url(../Images/rectangle_35.png) no-repeat center center / cover;
+}
+.service{
+    font-family: Acme;
+    padding-top: 10px; 
+    margin-left: 40px;
+    color: white;
+}
+
+#input-data{
+    display: flex;
+}
+input.number{
+    width: 100px;
+    height: 28px;
+}
+input.from, input.to{
+    text-align: center;
+}
+input.search{
+    padding: 0px;
+}
+input.depature{
+    width: 172px;
+}
+#input-data{
+    border: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 850px;
+    margin-left: 100px;
+    background-color: #004E98;
+} 
+ h5{
+    text-align: center;
+}
+.nav{
+    display: flex;
+} 
+button.nav-login{
+    margin-top: 10px;
+    margin-left: 310px;
+    margin-right: 50px;
+    height: 30px;
+    width: 80px;
+    background-color: #FF6700;
+}
+button.nav-sign{
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    background-color: #FF6700;
+}
+.para{
+    padding: 50px;
+    text-align: center;
+    font-family: Permanent Marker;
+    font-size: 40px;
+}
+.fa-user-group{
+    color: #3A6EA5;
+    font-size: 80px;
+    /* padding-right: 100px; */
+    /* margin-left: 140px;  */
+}
+.fa-car-on{
+    color: #3A6EA5;
+    font-size: 80px;
+    /* padding-right: 100px; */
+    /* margin-right: 140px;  */
+
+}
+.fa-wifi{
+    color: #3A6EA5;
+    font-size: 80px;
+    /* padding-right: 100px; */
+
+}
+.fa-code-branch{
+    color: #3A6EA5;
+    font-size: 80px;
+    /* padding-right: 100px; */
+}
+p#text-icon1,p#text-icon2,p#text-icon3,p#text-icon4{
+    font-size: 12px; 
+    font-style: Cabin;
+    color: #FF6700;
+    text-align: center;
+}  
+.text2{
+    display: none;
+    text-align: center;
+}
+.comfy2{
+    display: none;
+    text-align: center;
+    
+}
+.book2{
+    display: none;
+    text-align: center;
+}
+.wifi2{
+    display: none;
+    text-align: center;
+}
+#icons{
+    display: flex;
+    margin-left: 150px;
+}
+.text{
+    margin-right: 100px;
+}
+.book{
+    margin-right: 100px; 
+}
+.comfy{
+    margin-right: 100px; 
+}
