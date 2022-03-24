@@ -307,3 +307,17 @@ hr{
     color: #FF6700;
     cursor: pointer;
 }
+
+footer p{
+    font-weight: 1.2rem;
+    color: #EBEBEB;
+    font-weight: 700;
+}
+
+footer p span{
+    color: #FF6700;
+}
+
+footer p span:hover{
+    color: #C0C0C0;
+}
