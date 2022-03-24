@@ -21,7 +21,7 @@ $(document).ready(function(){
         var regex3 = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#\._%()!])[a-zA-z0-9@#\._%()!]+$/
         if(password === ""){
             //$("#passval").show();
-            alert('password is required')
+            alert('password is required in uppercase, lowercase, number, symbol')
             return false
         }
         if(!regex3.test(password)){
@@ -30,8 +30,19 @@ $(document).ready(function(){
             return false
         }
         if(confirmpassword === ""){
-            //$("#conpassval").show
+            //$("#conpassval").show();
+            alert('confirm password')
+            return false
         }
+        if(confirmpassword === ""){
+            //$("#conpassval2").show();
+            alert("passwords don't match")
+            return false;
+        }
+        alert("sucessful");
+        window.localStorage.setItem(email,password);
+        window.location.replace("login.html");
+        return true;
     });
   })
     
