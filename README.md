@@ -29,7 +29,7 @@ This is a MS Capstone project done at the end of every module. It is meant to en
 
 * Access to the Internet
 
-[Go Back to the top](# Trip-na-Marafiki)
+[Go Back to the top](#Trip-na-Marafiki)
 
 
 ## Technology Used
@@ -37,44 +37,33 @@ This is a MS Capstone project done at the end of every module. It is meant to en
 * [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
 * [JS](https://en.wikipedia.org/wiki/JavaScript)
 * [Bootstrap](https://getbootstrap.com/)
-* [jQUERY](https://en.wikipedia.org/wiki/JavaScript)
+* [jQUERY](https://jquery.com/)
 
 
-[Go Back to the top](# Trip-na-Marafiki)
+[Go Back to the top](#Trip-na-Marafiki)
 
 
 ## Authors Info
-    # Ann Ndegwa
-       Email -[Ann Ndegwa]
-      
-     (ann.ndegwa@student.moringaschool.com)
+#### Ann Ndegwa
+Email -[Ann Ndegwa]
+    (ann.ndegwa@student.moringaschool.com)
 
-    # William Owalla
-       Email -[William Owalla]
+#### William Owalla
+Email -[William Owalla](william.owalla@student.moringaschool.com)
 
-     (william.owalla@student.moringaschool.com)
+#### Yvonne Muthui
+Email -[Yvonne Muthui](yvonne.muthui@student.moringaschool.com)
 
-    # Yvonne Muthui
-        Email -[William Owalla]
-
-     (yvonne.muthui@student.moringaschool.com)
-
-    # Damaris Chepchirchir
-      Email - [Damaris Chepchirchir]
-
-     (damaris.chepchirchir@student.moringaschool.com)
+#### Damaris Chepchirchir
+Email - [Damaris Chepchirchir](damaris.chepchirchir@student.moringaschool.com)
      
-    # Eunice Mungai
-        Email - [Eunice Mungai]
+#### Eunice Mungai
+Email - [Eunice Mungai](eunice.mungai@student.moringaschool.com)
 
-    (eunice.mungai@student.moringaschool.com)
+#### Andrian Weru
+Email - [Andrian Weru](andrian.weru@student.moringaschool.com)
 
-    # Andrian Weru
-        Email - [Andrian Weru]
-
-    (andrian.weru@student.moringaschool.com)
-    
 
 ## License
 Find the license information [here](LICENSE) 
-[Go Back to the top](# Trip-na-Marafiki)
+[Go Back to the top](#Trip-na-Marafiki)
