@@ -45,8 +45,7 @@ This is a MS Capstone project done at the end of every module. It is meant to en
 
 ## Authors Info
 #### Ann Ndegwa
-Email -[Ann Ndegwa]
-    (ann.ndegwa@student.moringaschool.com)
+Email -[Ann Ndegwa](ann.ndegwa@student.moringaschool.com)
 
 #### William Owalla
 Email -[William Owalla](william.owalla@student.moringaschool.com)
